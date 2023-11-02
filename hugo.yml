@@ -1,0 +1,39 @@
+baseURL: https://misa.st/
+languageCode: en-us
+title: Miša Stefanović
+theme: PaperMod
+
+params:
+  sectionPagesMenu: main
+
+  title: "Miša Stefanović"
+  keywords: [Blog, Portfolio]
+  author: "Miša Stefanović"
+  DateFormat: "10/11/2003"
+  defaultTheme: auto
+
+  label:
+    text: "Home"
+
+  profileMode:
+    enabled: true
+    subtitle: "Junior Blockchain Developer"
+    imageUrl: "img/userimg.jpg" 
+    imageTitle: "slika mene" 
+    imageWidth: 120 
+    imageHeight: 120 
+
+  socialIcons:
+      - name: github
+        url: "https://github.com/MikMik1011"
+      - name: linkedin
+        url: "https://linkedin.com/in/mikmik1011/"
+      - name: instagram
+        url: "https://instagram.com/mikmik_1011"
+
+  menu:
+    main:
+      - identifier: bgpp
+        name: bgpp
+        url: https://bgpp.fly.dev
+        weight: 1

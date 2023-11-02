@@ -18,7 +18,7 @@ params:
   profileMode:
     enabled: true
     subtitle: "Junior Blockchain Developer"
-    imageUrl: "img/userimg.jpg" 
+    imageUrl: "userimg.jpg" 
     imageTitle: "slika mene" 
     imageWidth: 120 
     imageHeight: 120 
@@ -33,7 +33,7 @@ params:
 
   menu:
     main:
-      - identifier: bgpp
-        name: bgpp
+      - name: bgpp
+        identifier: bgpp
         url: https://bgpp.fly.dev
-        weight: 1
+        weight: 10

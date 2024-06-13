@@ -6,7 +6,6 @@ theme: PaperMod
 params:
   sectionPagesMenu: main
 
-  title: "Miša Stefanović"
   keywords: [Blog, Portfolio]
   author: "Miša Stefanović"
   DateFormat: "10/11/2003"
@@ -30,10 +29,16 @@ params:
         url: "https://linkedin.com/in/mikmik1011/"
       - name: instagram
         url: "https://instagram.com/mikmik_1011"
+      - name: cv
+        url: "./cv.pdf"
 
   menu:
     main:
-      - name: bgpp
-        identifier: bgpp
-        url: https://bgpp.fly.dev
-        weight: 10
+    - name: blog
+      identifier: Blog
+      url: https://misa.st/blog
+      weight: 20
+    - name: bgpp
+      identifier: bgpp
+      url: https://bgpp.misa.st
+      weight: 10
